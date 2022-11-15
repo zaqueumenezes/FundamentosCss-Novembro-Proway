@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="compartilhado.css">
+
+
+
+    <style>
+        h1 {
+            background-color: aqua;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        img:hover {
+            width: 160px;
+            height: 200px;
+        }
+
+        #meu_id {
+            border: 1px solid black
+        }
+
+        #borda_grossa {
+            border: 5px dashed black;
+        }
+
+        .remover_estilo {
+            text-decoration: none;
+        }
+
+        p:hover {
+            font-weight: bold;
+        }
+
+        .nomes_proprios:hover {
+            text-transform: capitalize;
+        }
+
+        #enviar {
+            background-color: black;
+            border: 5px solid blueviolet;
+            border-radius: 10px;
+            padding: 8px;
+            color: brown;
+            width: 50px;
+        }
+
+        #enviar:hover {
+            background-color: aqua;
+            color: darkblue;
+            width: 200px;
+        }
+
+        #enviar::after {
+            content: "enviar"
+        }
+
+        #enviar:hover::after {
+            content: " luffy monstrão na lealdade com os amigos de fé";
+        }
+    </style>
+</head>
+
+<body>
+    <p>sou um paragrafo</p>
+
+
+    <h1> sou um header grande</h1>
+
+
+    <a href="https://www.linkedin.com/feed/" id="meu_id" class="remover_estilo">linkedin</a>
+
+    <a href="outra_pagina.html" target="_blank">vai pra outra pagina por cima</a>
+
+    <img src="./imagem/luffy-one-piece-1015.webp" alt="">
+
+    <ul>
+        <li><i id="borda_grossa" class="remover_estilo">italico</i></li>
+        <li><b class="remover_estilo">negrito</b></li>
+        <li><u class="remover_estilo">linha</u></li>
+        <li><s class="remover_estilo">riscado</s></li>
+    </ul>
+
+    <p>outro paragrafo</p>
+    <p>teste</p>
+    <p>teste</p>
+    <p>teste</p>
+    <p>teste</p>
+    <p>teste</p>
+
+
+    <p><u class="remover_estilo">sem underline</u></p>
+
+    <p><s id="unico">sou unico</s></p>
+
+    <h2 style="background-color: blueviolet; color: white;">Titulo até que grande (nubank)</h2>
+
+    <u style="text-decoration: none;">underline</u>
+
+    <s style="text-decoration: none;">riscado</s>
+
+    <p style="color: blue;">lets go</p>
+
+
+    <p class="nomes_proprios">zaqueu de aquino carvalho menezes</p>
+
+    <p class="nomes_proprios">ZAQUEU DE AQUINO CARVALHO MENEZES</p>
+
+
+    <p id="enviar"></p>
+
+    <a href="pagina3.html">pagina3</a>
+
+</body>
+
+</html>
